@@ -137,6 +137,9 @@ main > section {
   margin-top: 5px;
 }
 /* sponsor container style */
+.sponsor-container{
+  margin-bottom: 130px;
+}
 .sponsor-info{
   max-width: 540px;
   margin: 50px auto;
@@ -187,7 +190,17 @@ main > section {
 .featured-architect img{
   width: 100%;
 }
-
+/* footer style */
+#myfooter{
+  max-width: 1440px;
+  margin: 0 auto;
+  border-radius: 8px;
+} 
+.footer-text{
+  padding: 38px;
+  text-align: center;
+  
+}
 /* responsive style  for small devices*/
 @media screen and (max-width: 576px) {
   .navbar, 
